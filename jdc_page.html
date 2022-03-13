@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <title>MOSIAC</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-steel bg-faded fixed-top">
+            <div class="container">
+                <a class="navbar-brand my-auto" href="#">MOSIAC</a>
+                <div class="flex-column ml-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">Kelly</li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">Recruiting Manager</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main role="main" class="container">
+        <h4>Job Description Checker</h4>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="content-section">
+                    <form method="POST">
+                        <fieldset class="form-group">
+                            <legend class="border-bottom mb-4">Job Title</legend>
+                            <input rows="2" type="text" id="job-title" value="Technical Product Manager"><br><br>
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <legend class="border-bottom mb-4">DESCRIPTON</legend>
+                            <textarea rows="30" type="text" id="blog-post" value="">Technical Product Manager job qualifications and requirements
+A degree and a technical background should be required to gain a Software Developer role. Degrees in the following subjects should be highlighted as particularly advantageous:
+- Computer Science
+- Computer Software Engineering
+- Software Programming and Development
+- Engineering
+- Mathematics
+- Electronics
+- Physics
+
+As well as formal qualifications, a Software Developer job description should highlight the following qualities:
+
+Competitive spirit in a fast-paced environment
+Dominant, outspoken, assertive
+Knowledge and interest in computer systems and the latest technologies
+The ability to learn new technologies quickly, rockstar!
+An analytical mind
+Responsible and able to support the team
+The ability to communicate complex procedures to other colleagues
+Commercial and business awareness
+Good communication skills – both written and verbal
+Attention to detail and desire to probe further into data"</textarea><br><br>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p>Click on “check” to find biases in your job description.</p>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-lg btn-block" onclick="myFunction()" style="background-color: #006400; border: none;">Check</button>
+                </div>
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myDIV");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+                        } else {
+                            x.style.display = "none";
+                        }
+                    }
+                </script>
+                <div id="myDIV">
+                    <div class="content-section">
+                        <h5>Hove over each word to see alternatives</h5><br>
+                        <p class='text-muted'>MASCULINE WORDS <br>
+                            <button type="button" class="btn btn-primary mr-2 mb-2" style="background-color: #F89880" data-toggle="tooltip" data-placement="top" title="Competitive">
+                                hardworking
+                            </button>
+                            <button type="button" class="btn btn-primary mr-2 mb-2" style="background-color: #F89880" data-toggle="tooltip" data-placement="right" title="dominant">
+                                possess good leadership skills
+                            </button>
+                            <button type="button" class="btn btn-primary mr-2 mb-2" style="background-color: #F89880" data-toggle="tooltip" data-placement="bottom" title="outspoker">
+                                honesty
+                            </button>
+                            <button type="button" class="btn btn-primary mr-2 mb-2" style="background-color: #F89880" data-toggle="tooltip" data-placement="left" title="assertive">
+                                communicative
+                            </button>
+                            <button type="button" class="btn btn-primary mr-2 mb-2" style="background-color: #F89880" data-toggle="tooltip" data-placement="left" title="rockstar">
+                                fast-learning resilient
+                            </button>
+                        </p>
+                        <br>
+                        <p class='text-muted'>FEMININE WORDS<br>
+                            <button type="button" class="btn btn-primary mr-2 mb-2" data-toggle="tooltip" data-placement="top" title="responsible">
+                                reliable
+                            </button>
+                            <button type="button" class="btn btn-primary mr-2 mb-2" data-toggle="tooltip" data-placement="right" title="support">
+                                team player
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
