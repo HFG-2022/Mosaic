@@ -55,6 +55,18 @@
 
 /* APPLICANT DETAILS VIEW SECTION */
 
+.download-resume-btn {
+    background-color: #3E5146;
+    margin-top: 10px;
+}
+
+.download-resume-btn p{
+    margin: 5px;
+    color: #F7F7FC;
+    font-size: 13px;
+    padding: 5px;
+}
+
 #candidate-preview h2 {
     font-size: 25px;
 }
