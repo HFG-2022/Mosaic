@@ -52,3 +52,23 @@
 .active-button {
     background-color: #4A5B51;
 }
+
+#applicant-summary {
+    background-color: #BCD2C5;
+    border-bottom-style: solid;
+    border-bottom-color: #3E5146;
+    padding: 10px;
+}
+
+#applicant-summary h4{
+    font-size: 15px;
+}
+
+.divider-thick {
+    border-top: 3px solid #8D8D8D;
+    margin-top: 20px;
+}
+
+.applicant-fields h4{
+    font-size: 15px;
+}
