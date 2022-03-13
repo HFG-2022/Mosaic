@@ -12,6 +12,10 @@ input {
     padding: 3px;
 }
 
+#myDIV {
+    display: none;
+}
+
 #content-section {
     background: #ffffff;
     padding: 10px 20px;
