@@ -13,6 +13,11 @@
     margin-bottom: 15px;
 }
 
+#applicants-section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .applicant-block {
     padding: 20px;
     margin-bottom: 10px;
