@@ -53,6 +53,12 @@
     background-color: #4A5B51;
 }
 
+/* APPLICANT DETAILS VIEW SECTION */
+
+#candidate-preview h2 {
+    font-size: 25px;
+}
+
 #applicant-summary {
     background-color: #BCD2C5;
     border-bottom-style: solid;
@@ -64,6 +70,11 @@
     font-size: 15px;
 }
 
+#applicant-summary p{
+    font-size: 12px;
+}
+
+
 .divider-thick {
     border-top: 3px solid #8D8D8D;
     margin-top: 20px;
@@ -71,4 +82,24 @@
 
 .applicant-fields h4{
     font-size: 15px;
+}
+
+.applicant-fields td , th{
+    font-size: 14px;
+}
+
+.applicant-fields h5{
+    font-size: 15px;
+}
+
+.applicant-fields p{
+    font-size: 14px;
+}
+
+.applicant-fields li{
+    font-size: 14px;
+}
+
+.education-field {
+    margin-bottom: 5px;
 }
