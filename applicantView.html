@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mosiac</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -33,8 +34,8 @@
         <div class="applicant-block card">
             <h2>Application</h2>
 
-            <div class="text-center download-resume-btn">
-                <p class="align-middle"><strong>DOWNLOAD RESUME</strong></p>
+            <div class="text-center" id="download-resume-btn" onclick="downloadResume()">
+                <p class="align-middle"><i class="fa fa-download"></i><strong> DOWNLOAD RESUME</strong></p>
             </div>
 
             <hr class="divider-thick">
@@ -50,31 +51,31 @@
                 <h4>DETAILS</h4>
                 <table class="table">
                     <tbody>
-                      <tr>
+                      <tr id="first-name">
                         <th scope="row">First Name</th>
-                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                        <td colspan="3" class="text-end">White</td>
                     </tr>
-                      <tr>
+                      <tr id="last-name">
                         <th scope="row">Last Name</th>
-                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                        <td colspan="3" class="text-end">Peacock</td>
                     </tr>
-                      <tr>
+                      <tr id="email">
                         <th scope="row">Email Address</th>
                         <td colspan="3" class="text-end">Hidden due to blind screening</td>
                     </tr>
-                      <tr>
+                      <tr id="phone">
                         <th scope="row">Phone</th>
                         <td colspan="3" class="text-end">Hidden due to blind screening</td>
                     </tr>
-                      <tr>
+                      <tr id="address">
                         <th scope="row">Address</th>
                         <td colspan="3" class="text-end">Hidden due to blind screening</td>
-                    </tr>
-                      <tr>
+                    </tr >
+                      <tr id="dob">
                         <th scope="row">Date of Birth</th>
                         <td colspan="3" class="text-end">Hidden due to blind screening</td>
                     </tr>
-                      <tr>
+                      <tr  id="gender">
                         <th scope="row">Gender</th>
                         <td colspan="3" class="text-end">Hidden due to blind screening</td>
                     </tr>
@@ -90,13 +91,13 @@
                     <tbody>
                       <tr>
                         <th scope="row">Submitted at</th>
-                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
-                    </tr>
-                      <tr>
+                        <td colspan="3" class="text-end">25/02/2021, 12:30pm</td>
+                    </tr >
+                      <tr id="submit-by">
                         <th scope="row">Submitted by</th>
                         <td colspan="3" class="text-end">Hidden due to blind screening</td>
-                    </tr>
-                      <tr>
+                    </tr >
+                      <tr id="source">
                         <th scope="row">Source</th>
                         <td colspan="3" class="text-end">Hidden due to blind screening</td>
                     </tr>
@@ -112,15 +113,15 @@
                     <tbody>
                       <tr>
                         <th scope="row">Years of Experience</th>
-                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                        <td colspan="3" class="text-end">4 Years</td>
                     </tr>
                       <tr>
                         <th scope="row">Do you have SCRUM Professional Certification?</th>
-                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                        <td colspan="3" class="text-end">Yes</td>
                     </tr>
                       <tr>
                         <th scope="row">Do you have PRINCE2 Certification?</th>
-                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                        <td colspan="3" class="text-end">No</td>
                     </tr>
                     </tbody>
                   </table>
@@ -167,19 +168,22 @@
                 <h4>EDUCATION</h4>
                 <p class="education-field" style="text-align:left;">
                     <strong>Bachelor’s in Computer Science</strong>
-                    <span style="float:right;">
-                        Company hidden due to blind screening
+                    <span id="edu-duration" style="float:right;">
+                        Duration hidden due to blind screening
                     </span>
                 </p>
-                <p class="Institution">Company hidden due to blind screening</p>
+                <p class="Institution">Institution hidden due to blind screening</p>
             </div>
         </div>
+        <div id="reveal" onclick="revealInfo()">Interview processed</div>
+
+
     </div>
     <!-- <div id="footer">
         
     </div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="data.js"></script>
-    <script src="index.js"></script>
-</body>
+    <script src="applicantView.js"></script>
+    
 </html>
