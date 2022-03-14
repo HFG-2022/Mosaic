@@ -138,7 +138,7 @@ for (let k in applicants) {
     </td>
     `;
     row += "<td>" + applicants[k].id + "</td>";
-    row += "<th scope=\"row\"><a href=\"#\" class=\"link-dark\">" + applicants[k].hiddenFirstName + " " + applicants[k].hiddenLastName + "</a></th>";
+    row += "<th scope=\"row\"><a href=\"applicantView.html\" class=\"link-dark\">" + applicants[k].hiddenFirstName + " " + applicants[k].hiddenLastName + "</a></th>";
     const date = applicants[k].submittedAt.split(", ")[0];
     row += "<td>" + date + "</td>";
     row += "<td>" + applicants[k].roleApplied + "</td>";
