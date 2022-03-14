@@ -6,3 +6,6 @@
 - blind screening screen is applicants + hidden personal details + greyed out resume
 - job description screen is text that will grey out pronouns?
 - Job Description Checker (JCD): grey out gendered words like "passionate" or "dominant" and replace with gender neutral
+
+[Hosted on Github](https://hfg-2022.github.io/Mosaic/)
+[Hosted on Vercel](https://mosiac-vercel.vercel.app/)
