@@ -8,6 +8,8 @@ downloadBtn.style.display  = "none";
 
 function revealInfo() {
     // Grab sections to reveal (above sections)
+    var summary = document.getElementById("applicant-summary").getElementsByTagName("p")[0];
+    
     var firstName = document.getElementById("first-name").getElementsByTagName("td")[0];
     var lastName = document.getElementById("last-name").getElementsByTagName("td")[0];
     var email = document.getElementById("email").getElementsByTagName("td")[0];
@@ -18,6 +20,8 @@ function revealInfo() {
 
     var submitBy = document.getElementById("submit-by").getElementsByTagName("td")[0];
     var source = document.getElementById("source").getElementsByTagName("td")[0];
+
+    summary.innerHTML = "Sally Bong is a problem solver and strong communicator who is eager to prove their value and talent at an emerging company like EasyGO. Bong is motivated to advance and expand their skill set through targeted mentorship and challenging projects."
 
     firstName.innerHTML = "Sally"
     lastName.innerHTML = "Bong"

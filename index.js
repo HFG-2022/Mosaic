@@ -2,40 +2,16 @@ const WHITE_PEACOCK = {
     id: 1103,
     hiddenFirstName: "White",
     hiddenLastName: "Peacock",
-    firstName: "Alice",
-    lastName: "Tan",
     roleApplied: "Software Engineer",
-    email: "alicetan@gmail.com",
-    phone: "91234567",
-    address: "Blk 123, Ang Mo Kio Ave 4 #01-234",
-    dob: "28/03/1998",
-    gender: "Female",
     submittedAt: "25/02/2021, 12:30pm",
-    submittedBy: "Jane Ang",
-    souce: "Indeed",
-    yearsOfExp: 4,
-    scrumCert: "Yes",
-    prince2Cert: "No",
 }
 
 const EMERALD_PIG = {
     id: 1332,
     hiddenFirstName: "Emerald",
     hiddenLastName: "Pig",
-    // firstName: "Fatimah",
-    // lastName: "Bte Ahmed",
     roleApplied: "Sales Manager",
-    // email: "fatimahbteahmed@gmail.com",
-    // phone: "91234567",
-    // address: "Blk 123, Ang Mo Kio Ave 4 #01-234",
-    // dob: "28/05/2000",
-    // gender: "Female",
     submittedAt: "05/02/2021, 15:30pm",
-    // submittedBy: "Jane Ang",
-    // souce: "Indeed",
-    // yearsOfExp: 2,
-    // scrumCert: "No",
-    // prince2Cert: "No",
 }
 
 const WHITE_RABBIT = {
@@ -138,7 +114,7 @@ for (let k in applicants) {
     </td>
     `;
     row += "<td>" + applicants[k].id + "</td>";
-    row += "<th scope=\"row\"><a href=\"applicantView.html\" class=\"link-dark\">" + applicants[k].hiddenFirstName + " " + applicants[k].hiddenLastName + "</a></th>";
+    row += "<th scope=\"row\"><a href=\"applicantView.html\" class=\"link-dark text-decoration-none\">" + applicants[k].hiddenFirstName + " " + applicants[k].hiddenLastName + "</a></th>";
     const date = applicants[k].submittedAt.split(", ")[0];
     row += "<td>" + date + "</td>";
     row += "<td>" + applicants[k].roleApplied + "</td>";
