@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosiac</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="intro-section">
+        <div class="row">
+            <div class="col big-box">
+                <p class="display-6">MOSAIC</p>
+            </div>
+            <div class="col-1 bell-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#9A9AB0" class="bi bi-bell" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                </svg>
+            </div>
+            <div class="col-2">
+                <div class="row">
+                    Kelly
+                </div>
+                <div class="row">
+                    Recruiting manager
+                </div>
+            </div>
+          </div>
+    </div>
+    <div id="candidate-preview" class="card pt-3 px-5">
+        <div class="applicant-block card">
+            <h2>Application</h2>
+
+            <div class="text-center" id="download-resume-btn" onclick="downloadResume()">
+                <p class="align-middle"><i class="fa fa-download"></i><strong> DOWNLOAD RESUME</strong></p>
+            </div>
+
+            <hr class="divider-thick">
+
+            <div id="applicant-summary">
+                <h4>SUMMARY</h4>
+                <p>White Peacock is a problem solver and strong communicator who is eager to prove their value and talent at an emerging company like EasyGO. Peacock is motivated to advance and expand their skill set through targeted mentorship and challenging projects.</p>
+            </div>
+
+            <hr class="divider-thick">
+
+            <div class="applicant-fields">
+                <h4>DETAILS</h4>
+                <table class="table">
+                    <tbody>
+                      <tr id="first-name">
+                        <th scope="row">First Name</th>
+                        <td colspan="3" class="text-end">White</td>
+                    </tr>
+                      <tr id="last-name">
+                        <th scope="row">Last Name</th>
+                        <td colspan="3" class="text-end">Peacock</td>
+                    </tr>
+                      <tr id="email">
+                        <th scope="row">Email Address</th>
+                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                    </tr>
+                      <tr id="phone">
+                        <th scope="row">Phone</th>
+                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                    </tr>
+                      <tr id="address">
+                        <th scope="row">Address</th>
+                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                    </tr >
+                      <tr id="dob">
+                        <th scope="row">Date of Birth</th>
+                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                    </tr>
+                      <tr  id="gender">
+                        <th scope="row">Gender</th>
+                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                    </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+            <hr class="divider-thick">
+
+            <div class="applicant-fields">
+                <h4>SOURCE</h4>
+                <table class="table">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Submitted at</th>
+                        <td colspan="3" class="text-end">25/02/2021, 12:30pm</td>
+                    </tr >
+                      <tr id="submit-by">
+                        <th scope="row">Submitted by</th>
+                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                    </tr >
+                      <tr id="source">
+                        <th scope="row">Source</th>
+                        <td colspan="3" class="text-end">Hidden due to blind screening</td>
+                    </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+            <hr class="divider-thick">
+
+            <div class="applicant-fields">
+                <h4>APPLICATION QUESTIONS & ANSWERS</h4>
+                <table class="table">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Years of Experience</th>
+                        <td colspan="3" class="text-end">4 Years</td>
+                    </tr>
+                      <tr>
+                        <th scope="row">Do you have SCRUM Professional Certification?</th>
+                        <td colspan="3" class="text-end">Yes</td>
+                    </tr>
+                      <tr>
+                        <th scope="row">Do you have PRINCE2 Certification?</th>
+                        <td colspan="3" class="text-end">No</td>
+                    </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+            <hr class="divider-thick">
+
+            <div class="applicant-fields">
+                <h4>EXPERIENCE</h4>
+                <h5 class="job-title">Software Engineer</h5>
+                <p class="company">Company hidden due to blind screening</p>
+                <h5 class="work-duration">May 2020 - Current</h5>
+                <p class="job-country">Country hidden due to blind screening</p>
+                <div class="job-details">
+                    <ul>
+                        <li>Assigned to e-commerce team, and participated in designing improved software using algorithms to match users to products, boosting sales by 25% </li>
+                        <li>Participated in code reviews with product team, and gained feedback from senior engineers</li>
+                        <li>Experienced in writing custom, scalable code</li>
+                        <li>Partnered with company-wide engineers to understand user stories to reach business goals</li>
+                        <li>Reported findings to CEO and CTO directly</li>
+                        <li>Led team of software engineers in ticketing process</li>
+                      </ul>
+                </div>
+
+                <br>
+
+                <h5 class="job-title">Software Engineer</h5>
+                <p class="company">Company hidden due to blind screening</p>
+                <h5 class="work-duration">May 2019 - Mar 2020</h5>
+                <p class="job-country">Country hidden due to blind screening</p>
+                <div class="job-details">
+                    <ul>
+                        <li>Worked with 5 other interns under the supervision of senior software engineer</li>
+                        <li>Engaged in full stack development of e-commerce system</li>
+                        <li>Received coaching and support from peers and senior software engineer</li>
+                        <li>Gained practical experience in using Java and Python</li>
+                      </ul>
+                </div>
+            </div>
+
+            <hr class="divider-thick">
+
+            <div class="applicant-fields">
+                <h4>EDUCATION</h4>
+                <p class="education-field" style="text-align:left;">
+                    <strong>Bachelor’s in Computer Science</strong>
+                    <span id="edu-duration" style="float:right;">
+                        Duration hidden due to blind screening
+                    </span>
+                </p>
+                <p class="Institution">Institution hidden due to blind screening</p>
+            </div>
+        </div>
+        <div id="reveal" onclick="revealInfo()">Interview processed</div>
+
+
+    </div>
+    <!-- <div id="footer">
+        
+    </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+    <script src="applicantView.js"></script>
+    
+</html>

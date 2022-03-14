@@ -53,3 +53,79 @@
 .active-button {
     background-color: #4A5B51;
 }
+
+/* APPLICANT DETAILS VIEW SECTION */
+
+#download-resume-btn {
+    background-color: #3E5146;
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+#download-resume-btn p{
+    margin: 5px;
+    color: #F7F7FC;
+    font-size: 13px;
+    padding: 5px;
+}
+
+#candidate-preview h2 {
+    font-size: 25px;
+}
+
+#applicant-summary {
+    background-color: #BCD2C5;
+    border-bottom-style: solid;
+    border-bottom-color: #3E5146;
+    padding: 10px;
+}
+
+#applicant-summary h4{
+    font-size: 15px;
+}
+
+#applicant-summary p{
+    font-size: 12px;
+}
+
+
+.divider-thick {
+    border-top: 3px solid #8D8D8D;
+    margin-top: 20px;
+}
+
+.applicant-fields h4{
+    font-size: 15px;
+}
+
+.applicant-fields td , th{
+    font-size: 14px;
+}
+
+.applicant-fields h5{
+    font-size: 15px;
+}
+
+.applicant-fields p{
+    font-size: 14px;
+}
+
+.applicant-fields li{
+    font-size: 14px;
+}
+
+.education-field {
+    margin-bottom: 5px;
+}
+
+#reveal {
+    border-radius: 5px;
+    background-color: #4A5B51;
+    text-align: center;
+    color: #F7F7FC;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:pointer;
+    margin-bottom: 20px;
+}
