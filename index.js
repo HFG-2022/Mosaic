@@ -162,3 +162,8 @@ document.getElementById("data-table").innerHTML = dataTable;
 // mytable += "</tr></tbody></table>";
 
 // document.getElementById("data-table").innerHTML = mytable;
+
+function toJDCChecker() {
+    console.log("change location")
+    window.location.href="jdc_page.html"
+}
