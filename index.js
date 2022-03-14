@@ -143,3 +143,8 @@ function toJDCChecker() {
     console.log("change location")
     window.location.href="jdc_page.html"
 }
+
+function toDashboard() {
+    console.log("change location")
+    window.location.href="index.html"
+}
